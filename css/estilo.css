@@ -1,0 +1,1100 @@
+@charset "UTF-8";
+/* SECCIONES */
+.header {
+  display: flex;
+}
+
+.contenedorsecciones, .contenedorsecciones1 {
+  background-color: rgba(84, 108, 34, 0.68);
+  width: 100%;
+  height: 50px;
+  margin-top: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.contenedorsecciones1 {
+  margin-top: 10px;
+}
+
+.tituloprincipal {
+  color: rgba(0, 0, 0, 0.69);
+  text-align: center;
+  margin-top: 15px;
+}
+.tituloprincipal h1 {
+  font-family: "Italiana", serif;
+  font-size: 3rem;
+  align-self: center;
+}
+
+.listasecciones {
+  display: flex;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.69);
+}
+.listasecciones li {
+  list-style-type: none;
+  font-family: "Italiana";
+}
+.listasecciones li a {
+  padding: 0px 40px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.69);
+  text-decoration: none;
+  padding: 0px 20px;
+  color: #FFFFFF;
+  margin-left: 70px;
+}
+
+.secciones:hover {
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(219, 215, 215);
+  background-size: 100%;
+  overflow: auto;
+  font-family: "Italiana", serif;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  width: 300px;
+  margin: auto;
+}
+
+@media all and (max-width: 380px) {
+  .body {
+    width: 100%;
+    height: 100%;
+  }
+  .galeria {
+    grid-template-columns: 180px 180px;
+    grid-template-rows: 130px 130px;
+    grid-template-areas: "img1 img1" "img1 img1" "img2 img3" "img4 img4" "img4 img4" "img5 img5" "img5 img5" "img6 img7" "img8 img8" "img8 img8";
+    margin: 0;
+  }
+  .galeria__imagen--1 {
+    height: 250px;
+  }
+  .galeria__imagen--2 {
+    height: 150px;
+  }
+  .galeria__imagen--3 {
+    height: 150px;
+  }
+  .galeria__imagen--4 {
+    height: 80px;
+  }
+  .titulo4 {
+    margin-top: 10px;
+  }
+  .galeria__imagen--5 {
+    height: 250px;
+  }
+  .galeria__imagen--6 {
+    height: 150px;
+  }
+  .galeria__imagen--7 {
+    height: 150px;
+  }
+  .galeria__imagen--8 {
+    height: 250px;
+  }
+  .card {
+    margin: 0%;
+  }
+  .textonaturaleza p {
+    margin-left: 20px;
+    width: 300px;
+  }
+  .tituloprincipal {
+    margin-left: 35px;
+  }
+  .contenedorsecciones {
+    height: 180px;
+    display: inline-flex;
+    justify-content: center;
+  }
+  .listasecciones {
+    margin: auto;
+    flex-direction: column;
+  }
+  .listasecciones li {
+    background-color: rgba(190, 220, 189, 0.89);
+    margin-top: 10px;
+    width: 290px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+  }
+  .contenedorimagenes {
+    margin-top: 20px;
+    margin: 5%;
+  }
+  .imagenprincipal1 {
+    height: 250px;
+  }
+  .containerhistoria {
+    display: flex;
+    flex-direction: column;
+  }
+  .textohistoria p {
+    width: 340px;
+    margin-left: 10px;
+  }
+  .textohistoria h2 {
+    margin-left: 130px;
+    margin-top: 0px;
+  }
+  .imagenhistoria img {
+    width: 320px;
+    height: 480px;
+    margin: 20px 25px 20px 25px;
+  }
+  .carousel-inner {
+    width: 350px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .titulohistoria {
+    width: 350px;
+    margin-left: 10px;
+  }
+  .seccionoticias {
+    flex-direction: column;
+    text-align: center;
+  }
+  .header {
+    flex-direction: column;
+  }
+  .noticias {
+    margin-top: 30px;
+    margin-left: 0px;
+    height: 57px;
+    width: 100%;
+  }
+  .articulo1 {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 350px;
+    margin-bottom: 10px;
+  }
+  .textoprincipal2 h2 {
+    width: 300px;
+    margin-left: 30px;
+  }
+  .textoprincipal2 img {
+    width: 300px;
+    height: 250px;
+    margin-left: 30px;
+  }
+  .textovideo {
+    display: inline-block;
+  }
+  .divisionvideos {
+    flex-direction: column;
+  }
+  .video1, .video2 {
+    width: 340px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .divisiontexto h4 {
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+  .divisiontexto2 {
+    margin-top: 40px;
+    width: 250px;
+  }
+  .contenedorindice {
+    flex-direction: column;
+  }
+  .contenido__indice {
+    flex-direction: column;
+    width: 350px;
+  }
+  .contenido__art1 h5 {
+    margin-left: 25px;
+  }
+  .texto1__rrr {
+    width: 280px;
+    margin-left: 40px;
+  }
+  .texto2__rrr {
+    width: 280px;
+    margin-left: 40px;
+  }
+  .texto3__rrr {
+    width: 280px;
+    margin-left: 40px;
+  }
+  .texto4__rrr {
+    width: 280px;
+    margin-left: 40px;
+  }
+  .contenido__art1-2 {
+    justify-content: flex-start;
+  }
+  .titulo__reciclar {
+    margin-left: 25px;
+  }
+  .plasticos {
+    width: 280px;
+    margin-left: 5px;
+  }
+  .art2 {
+    flex-direction: column;
+  }
+  .art2 div p {
+    width: 280px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+  }
+  .texto__art3 {
+    width: 280px;
+    margin-left: 40px;
+  }
+  .ecologico {
+    margin-left: 40px;
+  }
+  .texto__art4 {
+    width: 280px;
+    margin-left: 40px;
+  }
+  .titulo__reciclar {
+    margin: 30px 30px 0px 50px;
+  }
+  .titulo__plasticos {
+    margin-left: 50px;
+  }
+  .titulo__basura {
+    margin-left: 40px;
+  }
+  .lista__indice {
+    margin-left: 50px;
+  }
+  .footer {
+    width: 100%;
+    margin: 0%;
+  }
+  .footer div h4 {
+    margin-left: 19px;
+  }
+  .footer div h3 {
+    margin-left: 15px;
+    margin-bottom: 23px;
+  }
+}
+.footer {
+  background-color: rgba(84, 108, 34, 0.55);
+  border-radius: 12px;
+  margin: 13px;
+}
+.footer div {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer h3 {
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 26px;
+}
+.footer h4 {
+  color: rgba(0, 0, 0, 0.6);
+  align-self: center;
+}
+.footer p {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.imagenfooter {
+  width: 50px;
+  border-radius: 11px;
+  margin: 10px;
+  margin-right: 10px;
+}
+.imagenfooter:hover {
+  animation: movimiento 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes movimiento {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px) rotate(-1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  90% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+/*PAGINA PRINCIPAL*/
+.imagenprincipal1 {
+  width: 160vh;
+  height: 80vh;
+  border-radius: 8px;
+}
+
+.contenedorimagenes {
+  display: flex;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.seccionoticias {
+  display: flex;
+  width: 100%;
+}
+
+.noticias {
+  background-color: rgba(84, 108, 34, 0.68);
+  border-radius: 4px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  height: 50px;
+  width: 500px;
+  margin-left: 35%;
+}
+.noticias h2 {
+  text-align: center;
+  color: #FFF9F9;
+  font-size: 20px;
+  padding: 11px;
+}
+
+.articulo1 {
+  border: 1px solid rgba(84, 108, 34, 0.68);
+  height: 600px;
+  width: 360px;
+  margin-left: 15px;
+  border-radius: 4px;
+}
+.articulo1 h3 {
+  text-align: center;
+  margin: 20px;
+}
+.articulo1 p {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.articulo1 h3:hover {
+  animation: alerta 1.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes alerta {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  20% {
+    transform: translate(-3px) rotate(-1deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  80% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+.calentamientoglobal,
+.contaminacion,
+.deforestacion,
+.biodiversidad {
+  width: 300px;
+  height: 200px;
+  border-radius: 8px;
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.contaminacion {
+  margin-top: 30px;
+}
+
+.deforestacion,
+.biodiversidad {
+  margin-top: 67px;
+}
+
+.textovideo {
+  display: flex;
+  justify-content: center;
+}
+
+.textoprincipal {
+  width: 350px;
+  text-align: center;
+  margin-right: 50px;
+  padding: 20px;
+}
+
+.divisiontexto {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.divisiontexto h4 {
+  margin-top: 40px;
+  border: 1px solid rgba(84, 108, 34, 0.68);
+  height: 50px;
+  width: 280px;
+  border-radius: 8px;
+  align-items: center;
+  font-size: 20px;
+}
+
+.texto__abramosojos:hover {
+  transition: all 0.3s;
+  transform: scale(1.5);
+}
+
+.divisiontexto {
+  align-items: center;
+}
+
+.divisiontexto2 {
+  margin-top: 40px;
+  width: 450px;
+  font-size: 18px;
+}
+
+.seccionvideos {
+  display: flex;
+}
+
+.divisionvideos {
+  display: flex;
+  flex-direction: column;
+}
+
+.video1 {
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+.video2 {
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+.contenedorindice {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.indice {
+  width: 30%;
+  height: 250px;
+  display: flex;
+  margin: auto;
+  background-color: rgba(84, 108, 34, 0.4);
+  border-radius: 8px;
+}
+
+.lista__indice {
+  margin: 20px;
+  list-style-type: none;
+  text-align: center;
+}
+.lista__indice li a {
+  padding: 0px 40px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.69);
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0px 20px;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+.contenido__indice {
+  display: flex;
+}
+
+.contenedor__cambiosimple {
+  display: flex;
+  justify-content: center;
+}
+
+.seccion__cambiosimple {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+.seccion__cambiosimple p {
+  margin-top: 10px;
+}
+
+.cambiosimple {
+  border-left: 3px solid rgba(84, 108, 34, 0.68);
+  width: 300px;
+  text-align: center;
+  margin: 10px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo__indice {
+  background-color: rgb(84, 120, 34);
+  color: #FFFFFF;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.tips {
+  display: flex;
+}
+
+.abrazatierra {
+  width: 150px;
+  margin-top: 20px;
+  height: 150px;
+  border-radius: 8px;
+  margin: 20px 30px 40px 70px;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.texto__art {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  margin-right: 50px;
+  text-align: justify;
+}
+
+.titulo__art {
+  text-align: center;
+  background-color: #556B2F;
+  color: #FFFFFF;
+  height: 20px;
+  width: 250px;
+  margin-left: 150px;
+}
+
+.subtitulo__rrr {
+  margin-left: 120px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  grid-template-rows: 4fr 1.3fr 1.5fr 1.3fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "rrr aside" "evitarplasticos aside" "basuraresponsable aside" "productosecologicos aside";
+}
+
+.rrr {
+  grid-area: rrr;
+}
+
+.evitarplasticos {
+  grid-area: evitarplasticos;
+}
+
+.basuraresponsable {
+  grid-area: basuraresponsable;
+}
+
+.productosecologicos {
+  grid-area: productosecologicos;
+}
+
+.aside {
+  grid-area: aside;
+}
+
+/*SECCIONES*/
+/*ADENTRATE*/
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  grid-template-rows: repeat(4, 200px);
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "img1 img1 img2 img3" "img1 img1 img4 img4" "img5 img5 img6 img7" "img5 img5 img8 img8";
+  gap: 8px;
+  margin-left: 170px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.galeria__imagen {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.galeria__imagen--1::before, .galeria__imagen--2::before, .galeria__imagen--3::before, .galeria__imagen--4::before, .galeria__imagen--5::before, .galeria__imagen--6::before, .galeria__imagen--7::before, .galeria__imagen--8::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(84, 108, 34, 0.8);
+  transform: translate(100%);
+  transition: transform 0.4s;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.galeria__imagen--1::before {
+  content: "HOGAR COMPARTIDO";
+}
+
+.galeria__imagen--2::before {
+  content: "OCUPARNOS DE CUIDAR LO NUESTRO";
+}
+
+.galeria__imagen--3::before {
+  content: "ABRAZARLO Y QUERERLO BIEN";
+}
+
+.galeria__imagen--4::before {
+  content: "AGRADECER POR EL ESPACIO";
+}
+
+.galeria__imagen--5::before {
+  content: "SENTIRNOS UNO CON LA NATURALEZA";
+}
+
+.galeria__imagen--6::before {
+  content: "MANTENER LA ESPERANZA";
+}
+
+.galeria__imagen--7::before {
+  content: "TODO PUEDE ESTAR BIEN";
+}
+
+.galeria__imagen--8::before {
+  content: "TODO EMPIEZA EN NOSOTROS";
+}
+
+.galeria__imagen:hover::before {
+  transform: translate(0);
+}
+.galeria__imagen img {
+  width: 100%;
+  height: 100%;
+}
+
+.imagenes__galeria {
+  border-radius: 8px;
+}
+
+.galeria__imagen--1 {
+  grid-area: img1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: auto;
+}
+
+.galeria__imagen--2, .galeria__imagen--3, .galeria__imagen--5, .galeria__imagen--6, .galeria__imagen--7, .galeria__imagen--8 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: auto;
+}
+
+.galeria__imagen--2 {
+  grid-area: img2;
+}
+
+.galeria__imagen--3 {
+  grid-area: img3;
+}
+
+.galeria__imagen--4 {
+  grid-area: img4;
+  width: 100%;
+  margin: 50px;
+  text-align: center;
+  border: 1px dashed darkolivegreen;
+  border-radius: 8px;
+  display: flex;
+  margin: auto;
+}
+
+.texto4, .titulo4 {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.galeria__imagen--5 {
+  grid-area: img5;
+  margin-top: 10px;
+}
+
+.galeria__imagen--6 {
+  grid-area: img6;
+}
+
+.galeria__imagen--7 {
+  grid-area: img7;
+}
+
+.galeria__imagen--8 {
+  grid-area: img8;
+}
+
+.card {
+  background-color: rgba(84, 108, 34, 0.45);
+  border-radius: 7px;
+  width: 100%;
+  margin: 10px;
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.card-img-top {
+  width: 350px;
+  border-radius: 8px 8px 8px 8px;
+  display: flex;
+  margin: auto;
+  margin-top: 10px;
+}
+
+/*MUNNDO VEGANO*/
+.tituloprincipal__mundovegano {
+  color: rgba(255, 251, 251, 0.91);
+  text-align: center;
+  margin-top: 15px;
+  font-family: "Italiana", serif;
+  font-size: 3rem;
+  align-self: center;
+}
+
+.contenedor__mundovegano {
+  width: 95vw;
+  height: 90vh;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/deforestación.jpg);
+}
+
+.contenido__mundovegano h2 {
+  color: rgba(255, 251, 251, 0.91);
+  width: 70%;
+  text-align: center;
+  margin: 20px auto;
+}
+.contenido__mundovegano p {
+  color: rgba(255, 251, 251, 0.91);
+  margin-top: 30px;
+}
+
+.veganismo h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 40px;
+}
+.veganismo p {
+  font-size: 20px;
+  width: 500px;
+  text-align: justify;
+  margin: 20px auto;
+}
+
+.veganismo__vegansociety p {
+  border-left: 3px solid rgba(84, 108, 34, 0.68);
+  text-align: center;
+  text-align: center;
+  width: 600px;
+}
+
+.titulo__vegansociety {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+.impactoambiental {
+  align-items: center;
+}
+.impactoambiental h2 {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  background-color: #556B2F;
+  color: rgba(255, 251, 251, 0.91);
+  border-radius: 8px;
+  width: 300px;
+  margin: 30px auto;
+}
+.impactoambiental p {
+  width: 30%;
+  margin: 0px auto;
+  font-size: 20px;
+  width: 50%;
+  text-align: justify;
+}
+
+.texto1__impactoambiental {
+  width: 40%;
+  margin-top: 30px;
+  font: 100;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.texto2__impactoambiental {
+  display: flex;
+  justify-content: center;
+}
+.texto2__impactoambiental p {
+  width: 50%;
+  margin: 10px;
+  font-size: 20px;
+  text-align: justify;
+}
+.texto2__impactoambiental img {
+  width: 300px;
+  height: 500px;
+  border-radius: 8px;
+  margin-left: 100 px;
+}
+
+.conjuntotexto__impactoambiental {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.conjuntotexto__impactoambiental p {
+  width: 300px;
+  height: 500px;
+  margin-left: 10px;
+}
+
+/*SOMOS NATURALEZA*/
+.carousel-inner {
+  width: 700px;
+  border-radius: 8px;
+  margin-left: 400px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.imagencarrousel {
+  height: 500px;
+}
+
+.textonaturaleza p {
+  width: 600px;
+}
+.textonaturaleza h1 {
+  text-align: center;
+  margin: 10px;
+  margin-top: 30px;
+}
+
+/*COLABORACIONES*/
+.titulocolaboraciones {
+  border: 2px solid #556B2F;
+  width: 850px;
+  border-radius: 7px;
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.textocolaboraciones {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.articulos__colaboraciones {
+  display: flex;
+}
+
+.cuadrado__colaboraciones {
+  width: 250px;
+  height: 200px;
+  background-color: rgba(84, 108, 34, 0.55);
+  border-radius: 8px;
+  margin: 30px 30px 30px 140px;
+  position: sticky;
+  top: 20px;
+}
+
+.lista__colaboraciones {
+  margin: 20px;
+  list-style-type: none;
+  text-align: center;
+  margin-top: 40px;
+}
+.lista__colaboraciones li a {
+  padding: 0px 40px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.69);
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0px 20px;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+.contenido__colaboraciones {
+  display: flex;
+}
+
+.greenpeace__titulo {
+  margin-top: 30px;
+  margin-left: 55px;
+  background-color: #556B2F;
+  width: 150px;
+  border-radius: 6px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.greenpeace__texto {
+  width: 500px;
+  margin-left: 0px;
+  text-align: justify;
+}
+
+.imagen__colaboraciones {
+  width: 300px;
+  margin-left: 50px;
+  border-radius: 6px;
+}
+
+.imagen2__colaboraciones {
+  width: 370px;
+  border-radius: 6px;
+  margin-right: 50px;
+}
+
+.seashepherd__titulo {
+  margin-top: 30px;
+  margin-left: 55px;
+  background-color: #556B2F;
+  width: 150px;
+  border-radius: 6px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 70px;
+}
+
+.seashepherd__texto {
+  width: 500px;
+  margin-left: 30px;
+  text-align: justify;
+}
+
+.cascosverdes__titulo {
+  margin-top: 30px;
+  margin-left: 55px;
+  background-color: #556B2F;
+  width: 180px;
+  border-radius: 6px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 70px;
+}
+
+.cascosverdes__texto {
+  width: 500px;
+  margin-left: 0px;
+  text-align: justify;
+}
+
+.imagen3__colaboraciones {
+  width: 300px;
+  border-radius: 6px;
+  margin-right: 50px;
+}
+
+.bancobosques__titulo {
+  margin-top: 30px;
+  margin-left: 55px;
+  background-color: #556B2F;
+  width: 210px;
+  border-radius: 6px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 70px;
+}
+
+.bancobosques__texto {
+  width: 450px;
+  margin-left: 0px;
+  text-align: justify;
+}
+
+.imagen4__colaboraciones {
+  width: 450px;
+  border-radius: 6px;
+  margin-right: 50px;
+}
+
+/*# sourceMappingURL=estilo.css.map */
