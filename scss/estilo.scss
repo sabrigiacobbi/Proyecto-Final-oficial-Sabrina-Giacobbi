@@ -1,11 +1,10 @@
-@import "barranav", "general", "mediaqueries", "footer";
+@import "barranav", "general", "footer";
 
 /*PAGINA PRINCIPAL*/
 .imagenprincipal1{
-    width: 160vh;
-    height: 80vh;
+    width: 70%;
+    height: 560px;
     border-radius: 8px;
-
 }    
 .contenedorimagenes{
     display: flex;
@@ -103,12 +102,6 @@
     margin-top: 67px;
 }
 
-
-.textovideo {
-    display: flex;
-    justify-content: center;
-}
-
 .textoprincipal {
     width: 350px;
     text-align: center;
@@ -148,6 +141,8 @@
 }
 .seccionvideos{
     display: flex;
+    margin-left: 5%;
+
 }
 .divisionvideos {
     display: flex;
@@ -165,6 +160,7 @@
     margin: auto;
     margin-top: 40px;
     margin-left: 100px;
+    margin-bottom: 30px;
 }  
 .contenedorindice {
     display: flex;
@@ -235,7 +231,6 @@
 .tips {
     display: flex;
 }
-
 .abrazatierra {
     width: 150px;
     margin-top: 20px;
@@ -247,9 +242,8 @@
     margin-top: 20px;
 }
 .texto__art{
-    width: 800px;
-    display: flex;
-    justify-content: center;
+    width:60%;
+    margin-left: 20%;
     margin-right: 50px;
     text-align: justify;
 }
@@ -260,38 +254,44 @@
     color: #FFFFFF;
     height: 20px;
     width: 250px;
-    margin-left: 150px;
+    margin: 20px 18%;
 }
 .subtitulo__rrr{
-    margin-left: 120px;
+    margin-left: 19%;
 }
-
-.container {  display: grid;
-    grid-template-columns: 1.3fr 0.7fr;
-    grid-template-rows: 4fr 1.3fr 1.5fr 1.3fr;
-    grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "rrr aside"
-        "evitarplasticos aside"
-        "basuraresponsable aside"
-        "productosecologicos aside";
+.seccioneducacionambiental{
+    width: 50%;
 }
-
-.rrr { grid-area: rrr; }
-
-.evitarplasticos { grid-area: evitarplasticos; }
-
-.basuraresponsable { grid-area: basuraresponsable; }
-
-.productosecologicos { grid-area: productosecologicos; }
-
-.aside { grid-area: aside; }
-
-
-
-
+.titulo__educacionambiental{
+    margin: 60px 20%;
+    background-color: #556B2F;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+}
+.seccioneducacionambiental p{
+    width: 65%;
+}
+.diadelambiente{
+    display: flex;
+    border: 3px solid #556B2F;
+    border-radius: 8px;
+    margin: 50px 8%;
+    width: 90%;
+}
+.contenido__diadelambiente p{
+    width:90%;
+    text-align: justify;
+}
+.frasefinal{
+    border: 5px double rgba(84, 108, 34, 0.8);
+    border-radius: 8px;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-top: 20px;
+    width: 80%;
+    text-align: center;
+}
 /*SECCIONES*/
 /*ADENTRATE*/
 .galeria {
@@ -501,7 +501,6 @@
     p{
         border-left: 3px solid rgba(84, 108, 34, 0.68);
         text-align: center;
-        text-align: center;
         width: 600px;
     }
 }
@@ -519,11 +518,10 @@
         background-color: #556B2F;
         color: rgba(255, 251, 251, 0.91) ;
         border-radius: 8px;
-        width: 300px;
+        width: 30%;
         margin: 30px auto;
     }
     p{
-        width: 30%;
         margin: 0px auto;
         font-size: 20px;
         width: 50%;
@@ -532,64 +530,104 @@
 }
 .texto1__impactoambiental{
     width: 40%;
+    align-items: center;
     margin-top: 30px;
-    font: 100;
-    font-size:20px;
+    font: 90;
+    font-size:18px;
     text-align: justify;
 }
 .texto2__impactoambiental{
     display: flex;
     justify-content: center;
     p{
-        width: 50%;
-        margin: 10px;
-        font-size: 20px;
+        margin:10px;
+        font-size: 18px;
+        font: 90;
         text-align: justify;
+        margin-bottom: 40px;
     }
     img{
         width: 300px;
         height: 500px;
         border-radius:8px ;
-        margin-left: 100 px;
     }
 }
-.conjuntotexto__impactoambiental{
+.deforestacion__mundovegano{
+    h3{
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        margin-top: 15px;
+    }
+    p{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 40%;
+        font-size: 18px;
+    }
+}
+.videodeforestacion{
+    width: 80%;
+    height: 40%;
+    border-radius:5px ;
+    margin-left: 10%;
+}
+.referencia__videodeforestacion{
+    width: 60%;
+}
+.texto__deforestacion__mundovegano{
+    width: 50%;
+    margin-top: 40px;
+    font-size: 18px;
+}
+.estadisticas__mundovegano{
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    p{
-        width: 300px;
-        height: 500px;
-        margin-left: 10px;
+    margin-top: 40px;
+    h4{
+        font-size: 18px;
+        margin-top: 12%;
+        margin-right: 10px;
+        width: 160px;
+        text-align: center;
+        background-color: #556B2F;
+        height: 70px;
+        border-radius: 8px;
+        color: #fff;
+
     }
+    img{
+        width: 40%;
+        height: 40%;
+        border-radius: 8px;
+        }
 }
 /*SOMOS NATURALEZA*/
-.carousel-inner{
-    width: 700px;
-    border-radius: 8px;
-    margin-left: 400px;
-    margin-bottom: 50px;
-    margin-top: 50px;
-}    
-.imagencarrousel{
-    height: 500px;
-}    
-.textonaturaleza{
-        p{
-            width: 600px;}
-        h1{
-            text-align: center;
-            margin: 10px;
-            margin-top: 30px;
-        }    
-    }
+.titulo__somosnaturaleza{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.texto__somosnaturaleza{
+    width: 50%;
+}
+.carousel-control-prev{
+    width: 50%;
+}
+.carousel-control-next{
+    width: 50%;
+}
+.imagencarrusel{
+    width: 45%;
+    margin:30px 28%;
+}
 
 
 
 /*COLABORACIONES*/
 .titulocolaboraciones {
     border: 2px solid #556B2F;
-    width: 850px;
+    width: 60%;
     border-radius: 7px;
     display: flex;
     margin: auto;
@@ -647,6 +685,7 @@
     border-radius: 6px;
     text-align: center;
     margin-bottom: 20px;
+    color: aliceblue;
 }
 
 .greenpeace__texto {
@@ -676,6 +715,7 @@
     text-align: center;
     margin-bottom: 20px;
     margin-top: 70px;
+    color: aliceblue;
 }
 
 .seashepherd__texto {
@@ -693,6 +733,7 @@
     text-align: center;
     margin-bottom: 20px;
     margin-top: 70px;
+    color: aliceblue;
 }
 
 .cascosverdes__texto {
@@ -716,6 +757,7 @@
     text-align: center;
     margin-bottom: 20px;
     margin-top: 70px;
+    color: aliceblue;
 }
 
 .bancobosques__texto {
@@ -728,4 +770,277 @@
     width: 450px;
     border-radius: 6px;
     margin-right: 50px;
+}
+
+/*SECCION RESPONSIVE*/
+@media all and (max-width:380px) {
+    .body{
+        width: 100%;
+        height: 100%;
+    }
+    /*PAGINA PRINCIPAL*/
+    .tituloprincipal{
+        margin-left: 5px;
+    }
+    .contenedorsecciones, .contenedorsecciones1{
+        height: 180px;
+        display: inline-flex;
+        justify-content: center;
+    }
+    .listasecciones{
+        margin: auto;
+        flex-direction: column;
+        li{
+            background-color: rgba(190, 220, 189, 0.89);
+            margin-top: 10px;
+            width: 290px;
+            border-radius: 8px; 
+            display: flex;
+            justify-content: center;}
+    }
+    .contenedorimagenes{
+        margin-top: 20px;
+        margin: 5% ;
+    }
+    .header{
+        flex-direction: column;
+    }
+    .imagenprincipal1{
+        width: 100%;
+        height: 50%;
+    }
+    .seccionoticias{
+        flex-direction: column;
+        text-align: center;
+    }
+    .noticias{
+        margin-top: 30px;
+        height: 60px;
+        width: 100%;
+        margin-left: 0%;
+    }
+    .articulo1{
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 350px;
+        margin-bottom: 10px;
+    }
+    .divisionvideos{
+        flex-direction: column;
+    }
+    .seccionvideos{
+        flex-direction: column;
+        margin-left: 0%;
+    }
+    .video1, .video2{
+        width: 340px;
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+    .contenedor__cambiosimple{
+        flex-direction: column;
+    }
+    .seccion__cambiosimple{
+        margin: 20px 9%;
+    }
+    .contenedorindice{
+        flex-direction: column;
+    }
+    .indice{
+        height: 40%;
+    }
+    .contenido__indice{
+        flex-direction: column;
+        width: 350px;
+    }
+    .abrazatierra{
+        margin-left: 30%;
+    }
+    .titulo__art{
+        margin:20px 0%;
+        width: 100%;
+    }
+    .subtitulo__rrr{
+        margin-left: 8%;
+    }
+    .texto__art{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .seccioneducacionambiental{
+        flex-direction: column;
+        width: 100%;
+    }
+    .titulo__educacionambiental{
+        width: 90%;
+        margin:20px 5%;
+    }
+    .seccioneducacionambiental p{
+        width: 100%;
+        width: 90%;
+    }
+    .diadelambiente{
+        flex-direction: column;
+        margin: 30px 5%;
+    }
+    .texto__diadelambiente{
+        width: 80%;
+        margin: auto;
+    }
+    .contenido__diadelambiente h4{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    /*ADENTRATE*/
+    .galeria {
+        grid-template-columns: 180px 180px;
+        grid-template-rows: 130px 130px;
+        grid-template-areas:
+            "img1 img1"
+            "img1 img1"
+            "img2 img3"
+            "img4 img4"
+            "img4 img4"
+            "img5 img5"
+            "img5 img5"
+            "img6 img7"
+            "img8 img8"
+            "img8 img8"
+            ;
+            margin: 5px;
+    }
+    
+    .galeria__imagen--1{
+        height: 250px;
+    }
+    .galeria__imagen--2{
+        grid-area: img2;
+        height: 150px;
+    }
+    .galeria__imagen--3{
+        height: 150px;
+    }
+    .galeria__imagen--4{
+        height: 80px;
+    }
+    .galeria__imagen--5{
+        height: 250px;
+    }
+    .galeria__imagen--6{
+        height: 150px;
+    }
+    .galeria__imagen--7{
+
+        height: 150px;
+    }
+    .galeria__imagen--8{
+
+        height: 250px;
+    }
+    .card{
+        margin: 0%;
+    }
+    /*MUNDO VEGANO*/
+    .tituloprincipal__mundovegano{
+        font-size: 40px;
+    }
+    .veganismo p{ 
+        font-size: 18px;
+        width: 80%;
+    }
+    .veganismo__vegansociety p{
+        width: 90%;
+    }
+    .impactoambiental h2{
+        width: 80%;
+    }
+    .impactoambiental p{
+        width: 80%;
+    }
+    .texto1__impactoambiental{
+        width: 80%;
+    }
+    .texto2__impactoambiental {
+        flex-direction: column;
+        margin-left: 10%;
+    }
+    .deforestacion__mundovegano p{
+        width: 80%;
+    }
+    .texto__deforestacion__mundovegano{
+        width: 80%;
+    }
+    .estadisticas__mundovegano{
+        flex-direction: column;
+    }
+    .estadisticas__mundovegano h4{
+        width: 60%;
+        height: 20%;
+        margin: 20px 20%;
+    }
+    .estadisticas__mundovegano img{
+        margin: 20px;
+        width: 90%;
+        height: 60%;
+
+    }
+    /*COLABORACIONES*/
+    .titulocolaboraciones{
+        font-size: 25px;
+    }
+    .textocolaboraciones{
+        margin: 10px 10%;
+        text-align: center;
+    }
+    .articulos__colaboraciones{
+        flex-direction: column;
+    }
+    .cuadrado__colaboraciones{
+        position: relative;
+        margin: 10px 20%;
+    }
+    .contenido__colaboraciones{
+        flex-direction: column;
+    }
+    .greenpeace__titulo, 
+    .seashepherd__titulo,
+    .cascosverdes__titulo, 
+    .bancobosques__titulo{
+        width: 100%;
+        margin: 30px 0%;
+    }
+
+
+    .greenpeace__texto, 
+    .seashepherd__texto,
+    .cascosverdes__texto, 
+    .bancobosques__texto{
+        width: 90%;
+        margin: 10px 5%;
+    }
+    .imagen__colaboraciones,
+    .imagen2__colaboraciones, 
+    .imagen3__colaboraciones,
+    .imagen4__colaboraciones{
+        width: 80%;
+        margin: 10px 10%;
+    }
+    /*SOMOS NATURALEZA*/
+    .texto__somosnaturaleza{
+        width: 90%;
+    }
+    
+    /*FOOTER*/
+    .footer{
+        width: 100%;
+        margin: 0%;
+    }
+    .footer div h4{
+        margin-left: 19px;
+    }
+    .footer div h3{
+        margin-left: 15px;
+        margin-bottom: 23px;
+    }
 }
